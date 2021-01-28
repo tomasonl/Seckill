@@ -20,7 +20,9 @@ public enum RespBeanEnum {
     SESSION_ERROR(500210,"session不存在或者已经失效"),
     LOGINVO_ERROR(500211,"用户名或者密码错误"),
     MOBILE_ERROR(500212,"手机号码格式错误"),
-    BIND_ERROR(500213,"参数校验异常");
+    BIND_ERROR(500213,"参数校验异常"),
+    REPEATE_ERROR(500215,"抱歉老弟，不可重复购买哦"),
+    EMPTY_STOCK(500214,"对不起，库存不足");
     private final Integer code;
     private final String message;
 }
